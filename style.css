@@ -1,0 +1,107 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007BFF;
+    text-align: center;
+    font-size: 28px;
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.expenses {
+    text-align: center;
+}
+
+.expenses h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.expenses table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.expenses th, .expenses td {
+    padding: 10px;
+}
+
+.expenses th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.expenses tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.totals {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.totals h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#total-expenses {
+    font-size: 18px;
+    color: #007BFF;
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
